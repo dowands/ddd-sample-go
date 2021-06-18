@@ -70,5 +70,5 @@ query即是事件风暴中的读模型
 因为时间关系，很多地方没有处理nil
 
 ## 单元测试+覆盖率报告
-go test -coverpkg=./... -coverprofile=coverage.data ./...
+go test -coverpkg=./... -coverprofile=coverage.data ./...   
 go tool cover -func=coverage.data -o coverage.txt
